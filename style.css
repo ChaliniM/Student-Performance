@@ -1,0 +1,49 @@
+/* style.css */
+
+body {
+    background-color: #84cbdb;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #004aad;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.stButton > button {
+    background-color: #004aad;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #0066cc;
+}
+
+.stTextInput, .stSelectbox, .stSlider, .stNumberInput {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+div.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background-color: #82e0ef;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+    visibility: hidden;
+}
